@@ -49,7 +49,6 @@ class VersionThreeUpdateSetting {
 }
 
 class View {
-
     constructor(updateSetting, editorConfig) {
         this.updateSetting = updateSetting;
         this.editorConfig = editorConfig;
@@ -67,7 +66,6 @@ class View {
         const answer = showInformationMessage(this.messages.prompt, this.messages.yes, this.messages.no, this.messages.learnMore);
 
         answer.then((selectedOption) => {
-
             if (selectedOption === this.messages.yes) {
                 this.updateSetting.persist();
                 updateSettings(this.editorConfig, versionThreeSettings);
@@ -82,7 +80,11 @@ class View {
     }
 }
 
-const activate = () => {
+const activate = async () => {
+    // VSCode using new explorer filtration since v1.31
+    // so we need to use context key for proper use of hotkeys with single key like `A` or `^A`
+    await vscode.commands.executeCommand('setContext', 'listAutomaticKeyboardNavigation', false);
+
     const editorConfig = vscode.workspace.getConfiguration('editor');
     const updateSetting = new VersionThreeUpdateSetting();
 

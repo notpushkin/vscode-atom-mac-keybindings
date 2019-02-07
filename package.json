@@ -525,6 +525,11 @@
                 "linux": "ctrl+p",
                 "key": "ctrl+p",
                 "command": "workbench.action.quickOpenPreviousEditor"
+            },
+            {
+                "key": "/",
+                "command": "list.toggleKeyboardNavigation",
+                "when": "filesExplorerFocus && !inputFocus && listSupportsKeyboardNavigation"
             }
         ],
         "configuration": {
