@@ -529,7 +529,7 @@
             {
                 "key": "/",
                 "command": "list.toggleKeyboardNavigation",
-                "when": "filesExplorerFocus && !inputFocus && listSupportsKeyboardNavigation"
+                "when": "listFocus && !inputFocus && listSupportsKeyboardNavigation"
             }
         ],
         "configuration": {
