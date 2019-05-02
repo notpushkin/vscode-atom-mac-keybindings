@@ -19,6 +19,7 @@
     "activationEvents": [
         "*"
     ],
+    "extensionKind": "ui",
     "main": "./extension",
     "contributes": {
         "keybindings": [
