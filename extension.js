@@ -57,7 +57,7 @@ class View {
             no: 'No',
             learnMore: 'Learn More',
             prompt: 'New features are available for Atom Keymap 3.0. Do you want to enable the new features?',
-            noChange: 'Atom Keymap: New features have not been enable.',
+            noChange: 'Atom Keymap: New features have not been enabled.',
             change: 'Atom Keymap: New features have been added.',
         };
     }
