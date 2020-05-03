@@ -1,6 +1,7 @@
-## 3.07
-- Fix typo (thanks @miclgael)
+## 3.0.7
+- Fix typo [PR#63](https://github.com/microsoft/vscode-atom-keybindings/pull/63) (thank you @miclgael!)
 - Fix [#38](https://github.com/microsoft/vscode-atom-keybindings/issues/38)
+- Fix [#47](https://github.com/microsoft/vscode-atom-keybindings/issues/47)
 
 ## 3.0.4
 - More fixes for file explorer.
