@@ -1,3 +1,5 @@
+## 3.07
+- Fix typo (thankss )
 ## 3.0.4
 - More fixes for file explorer.
 

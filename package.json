@@ -533,6 +533,14 @@
                 "key": "/",
                 "command": "list.toggleKeyboardNavigation",
                 "when": "listFocus && !inputFocus && listSupportsKeyboardNavigation"
+            },
+            {
+                "mac": "cmd+k",
+                "win": "ctrl+k",
+                "linux": "ctrl+k",
+                "key": "ctrl+k",
+                "command": "workbench.action.terminal.clear",
+                "when": "terminalFocus"
             }
         ],
         "configuration": {
