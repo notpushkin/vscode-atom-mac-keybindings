@@ -1,3 +1,6 @@
+## 3.0.8
+- Roll back changes for [#47](https://github.com/microsoft/vscode-atom-keybindings/issues/47), as they are too disruptive (see [vscode#96894](https://github.com/microsoft/vscode/issues/96894)).
+
 ## 3.0.7
 - Fix typo [PR#63](https://github.com/microsoft/vscode-atom-keybindings/pull/63) (thank you @miclgael!)
 - Fix [#38](https://github.com/microsoft/vscode-atom-keybindings/issues/38)

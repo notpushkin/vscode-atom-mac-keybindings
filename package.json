@@ -2,7 +2,7 @@
     "name": "atom-keybindings",
     "displayName": "Atom Keymap",
     "description": "Popular Atom keybindings for Visual Studio Code",
-    "version": "3.0.7",
+    "version": "3.0.8",
     "publisher": "ms-vscode",
     "engines": {
         "vscode": "^1.22.0"
@@ -542,56 +542,6 @@
                 "key": "ctrl+k",
                 "command": "workbench.action.terminal.clear",
                 "when": "terminalFocus"
-            },
-            {
-                "key": "ctrl+shift+b",
-                "command": "cursorLeftSelect",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "ctrl+shift+p",
-                "command": "cursorUpSelect",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "alt+f",
-                "command": "cursorWordEndRight",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "ctrl+shift+f",
-                "command": "cursorRightSelect",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "ctrl+shift+n",
-                "command": "cursorDownSelect",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "alt+b",
-                "command": "cursorWordStartLeft",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "shift+alt+f",
-                "command": "cursorWordEndRightSelect",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "shift+alt+b",
-                "command": "cursorWordStartLeftSelect",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "ctrl+shift+e",
-                "command": "cursorEndSelect",
-                "when": "editorTextFocus"
-            },
-            {
-                "key": "ctrl+shift+a",
-                "command": "cursorHomeSelect",
-                "when": "editorTextFocus"
             }
         ],
         "configuration": {
