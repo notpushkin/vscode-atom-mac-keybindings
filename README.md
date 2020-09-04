@@ -7,7 +7,7 @@ This extension ports popular Atom keyboard shortcuts to Visual Studio Code. Afte
 - Multi cursor editing changed from <kbd>alt</kbd> + click to <kbd>ctrl</kbd> (or <kbd>cmd</kbd>) + click. 
 - Enable format on paste. 
 
-All of these features make VS Code more "Atom like." The changes to your User Settings file (`settings.json`) are as followed. 
+All of these features make VS Code more "Atom like." The changes to your User Settings file (`settings.json`) are as follows. 
 
 ```javascript
 // Controls whether the prompt will show
