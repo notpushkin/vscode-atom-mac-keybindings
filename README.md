@@ -7,7 +7,7 @@ This extension ports popular Atom keyboard shortcuts to Visual Studio Code. Afte
 - Multi cursor editing changed from <kbd>alt</kbd> + click to <kbd>ctrl</kbd> (or <kbd>cmd</kbd>) + click. 
 - Enable format on paste. 
 
-All of these features make VS Code more "Atom like." The changes to your User Settings file (`settings.json`) are as follows. 
+All of these features make VS Code more "Atom like." The changes to your User Settings file are as followed. 
 
 ```javascript
 // Controls whether the prompt will show
@@ -29,6 +29,7 @@ This is because VS Code has not implemented those features. Head on over to this
 Additionally, you can install an extension for many of these features:
 
 * [FontSize Shortcuts](https://marketplace.visualstudio.com/items?itemName=peterjuras.fontsize-shortcuts)
+* [change case](https://marketplace.visualstudio.com/items?itemName=wmaurer.change-case)
 * [transpose](https://marketplace.visualstudio.com/items?itemName=v4run.transpose)
 
 ## How do I contribute a keyboard shortcut?
@@ -92,8 +93,6 @@ You can read more about how to contribute keybindings in extensions in the [offi
 | `editor.foldLevel5` | `cmd+k cmd+5` | `ctrl+k ctrl+5` | `ctrl+k ctrl+5` |
 | `editor.action.selectHighlights` | `ctrl+cmd+g` | `alt+f3` | `alt+f3` |
 | `editor.action.insertCursorAtEndOfEachLineSelected` | `cmd+shift+l` | `alt+shift+l` | `alt+shift+l` |
-| `editor.action.transformToLowercase` | `cmd+k cmd+l` | `ctrl+k ctrl+l` | `ctrl+k ctrl+l` |
-| `editor.action.transformToUppercase` | `cmd+k cmd+u` | `ctrl+k ctrl+u` | `ctrl+k ctrl+u` |
 | `expandLineSelection` | `cmd+l` | `ctrl+l` | `ctrl+l` |
 | `explorer.newFile` | `a` | `a` | `a` |
 | `explorer.newFolder` | `shift+a` | `shift+a` | `shift+a` |

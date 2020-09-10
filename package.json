@@ -525,8 +525,8 @@
             },
             {
                 "mac": "cmd+p",
-                "linux": "ctrl+p",
                 "win": "ctrl+p",
+                "linux": "ctrl+p",
                 "key": "ctrl+p",
                 "command": "workbench.action.quickOpenPreviousEditor"
             },
@@ -542,22 +542,6 @@
                 "key": "ctrl+k",
                 "command": "workbench.action.terminal.clear",
                 "when": "terminalFocus"
-            },
-            {
-                "mac": "cmd+k cmd+l",
-                "linux": "ctrl+k ctrl+l",
-                "win": "ctrl+k ctrl+l",
-                "key": "ctrl+k ctrl+l",
-                "command": "editor.action.transformToLowercase",
-                "when": "editorFocus"
-            },
-            {
-                "mac": "cmd+k cmd+u",
-                "linux": "ctrl+k ctrl+u",
-                "win": "ctrl+k ctrl+u",
-                "key": "ctrl+k ctrl+u",
-                "command": "editor.action.transformToUppercase",
-                "when": "editorFocus"
             }
         ],
         "configuration": {
