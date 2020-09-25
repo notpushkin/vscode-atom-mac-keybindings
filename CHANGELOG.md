@@ -1,3 +1,6 @@
+## 3.0.9
+- Add `workspace` to `extensionKind` so we can be run in GitHub Codespaces and Remote
+
 ## 3.0.8
 - Roll back changes for [#47](https://github.com/microsoft/vscode-atom-keybindings/issues/47), as they are too disruptive (see [vscode#96894](https://github.com/microsoft/vscode/issues/96894)).
 

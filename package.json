@@ -2,7 +2,7 @@
     "name": "atom-keybindings",
     "displayName": "Atom Keymap",
     "description": "Popular Atom keybindings for Visual Studio Code",
-    "version": "3.0.8",
+    "version": "3.0.9",
     "publisher": "ms-vscode",
     "engines": {
         "vscode": "^1.22.0"
@@ -21,7 +21,8 @@
         "*"
     ],
     "extensionKind": [
-        "ui"
+        "ui",
+        "workspace"
     ],
     "main": "./extension",
     "contributes": {
