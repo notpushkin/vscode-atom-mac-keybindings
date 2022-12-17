@@ -2,7 +2,7 @@
     "name": "atom-keybindings",
     "displayName": "Atom Keymap",
     "description": "Popular Atom keybindings for Visual Studio Code",
-    "version": "3.0.10",
+    "version": "3.1.0",
     "publisher": "ms-vscode",
     "engines": {
         "vscode": "^1.22.0"
@@ -550,19 +550,9 @@
                 "when": "terminalFocus"
             }
         ],
-        "configuration": {
-            "type": "object",
-            "title": "Atom Keymap configuration",
-            "properties": {
-                "atomKeymap.promptV3Features": {
-                    "type": [
-                        "boolean",
-                        "null"
-                    ],
-                    "default": null,
-                    "description": "Status of Atom Keymap version three features added."
-                }
-            }
+        "configurationDefaults": {
+            "editor.multiCursorModifier": "ctrlCmd",
+            "editor.formatOnPaste": true
         }
     },
     "scripts": {
