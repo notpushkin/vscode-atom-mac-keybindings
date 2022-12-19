@@ -10,17 +10,12 @@ This extension ports popular Atom keyboard shortcuts to Visual Studio Code. Afte
 All of these features make VS Code more "Atom like." The changes to your User Settings file are as followed. 
 
 ```javascript
-// Controls whether the prompt will show
-"atomKeymap.promptV3Features": true,
-
 // Changes the multi cursor mouse binding
 "editor.multiCursorModifier": "ctrlCmd",
 
 // Controls whether format on paste is on or off
 "editor.formatOnPaste": true
 ```
-
->**Tip:** If you want to see the prompt again simply change `atomKeymap.promptV3Features` to `false` and restart VS Code. 
 
 ## Why don't some Atom commands work? 
 
