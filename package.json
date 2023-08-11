@@ -1,9 +1,9 @@
 {
-    "name": "atom-keybindings",
-    "displayName": "Atom Keymap",
-    "description": "Popular Atom keybindings for Visual Studio Code",
+    "name": "atom-mac-keybindings",
+    "displayName": "Atom Keymap (mac-style)",
+    "description": "macOS-style Atom keybindings for VS Code on all platforms",
     "version": "3.3.0",
-    "publisher": "ms-vscode",
+    "publisher": "notpushkin",
     "engines": {
         "vscode": "^1.75.0"
     },
@@ -555,9 +555,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Microsoft/vscode-atom-keybindings.git"
+        "url": "https://github.com/notpushkin/vscode-atom-mac-keybindings.git"
     },
     "bugs": {
-        "url": "https://github.com/Microsoft/vscode-atom-keybindings/issues"
+        "url": "https://github.com/notpushkin/vscode-atom-mac-keybindings/issues"
     }
 }
